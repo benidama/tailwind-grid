@@ -33,11 +33,11 @@
   </head>
   <body class="font-newFont">
     <div
-      class="sm:h-[3100px] w-screen flex justify-center items-center bg-slate-50"
+      class="sm:h-[3100px] md:h-screen w-screen flex flex-col justify-center items-center bg-slate-50 md:flex-row"
     >
-      <div class="flex gap-[35px] flex-col">
+      <div class="flex-col flex md:grid md:grid-cols-4 gap-6 md:relative">
         <div
-          class="rounded-lg bg-[hsl(256,67%,59%)] flex justify-center items-center flex-col sm:max-w-[375px] pb-[30px]"
+          class="md:col-span-2 md:h-[260px] rounded-lg md:min-w-[520px] bg-[hsl(256,67%,59%)] flex justify-center items-center flex-col sm:max-w-[375px] pb-[30px] col-start-2"
         >
           <h1
             class="text-[55px] text-[hsl(31,66%,93%)] p-[30px] text-center leading-[52px]"
@@ -58,30 +58,32 @@
           </p>
         </div>
         <div
-          class="rounded-lg space-y-4 pb-[40px] pl-[30px] pt-[20px] sm:max-w-[375px] bg-[hsl(0,0%,100%)]"
+          class="rounded-lg flex md:absolute md:bottom-[280px] flex-col md:h-[230px] md:w-[250px] space-y-4 pb-[40px] pl-[30px] pt-[20px] sm:max-w-[375px] bg-[hsl(0,0%,100%)] md:row-start-2 md:col-start-2"
         >
           <img
             src="./assets/images/illustration-multiple-platforms.webp"
             alt=""
           />
-          <h2 class="text-[hsl(0,0%,7%)] font-black text-[25px] leading-8">
+          <h2
+            class="text-[hsl(0,0%,7%)] md:h-[30px] font-black text-[25px] md:text-[28px] leading-8"
+          >
             Manage multiple accounts and platforms.
           </h2>
         </div>
         <div
-          class="rounded-lg pl-[34px] pt-[20px] pr-7 space-y-4 sm:max-w-[375px] bg-[hsl(39,100%,71%)]"
+          class="rounded-lg md:absolute md:bottom-[280px] md:w-[250px] pl-[34px] pt-[20px] pr-7 space-y-4 sm:max-w-[375px] bg-[hsl(39,100%,71%)] md:row-start-2 md:col-start-3 md:h-[230px]"
         >
           <h2 class="text-[30px] text-[hsl(0,0%,7%)] font-black leading-6">
             Maintain a consistent posting schedule.
           </h2>
           <img
-            class="w-[250px]"
+            class="w-[250px] md:h-[100px] md:w-[270px]"
             src="./assets/images/illustration-consistent-schedule.webp"
             alt=""
           />
         </div>
         <div
-          class="rounded-lg space-y-5 pb-[40px] pl-[30px] pt-[20px] pr-[30px] bg-[hsl(254,88%,90%)] sm:max-w-[375px]"
+          class="rounded-lg md:w-[250px] space-y-5 pb-[40px] pl-[30px] pt-[20px] pr-[30px] bg-[hsl(254,88%,90%)] sm:max-w-[375px] col-start-4 row-start-1"
         >
           <h2 class="text-[25px] text-[hsl(0,0%,7%)] font-black leading-8">
             Schedule to social media.
@@ -93,30 +95,34 @@
           </p>
         </div>
         <div
-          class="rounded-lg space-y-11 pb-[40px] pl-[34px] pt-[20px] sm:max-w-[375px] bg-[hsl(256,67%,59%)] flex justify-center items-center flex-col"
+          class="md:col-span-2 md:w-[250px] md:relative top-4 rounded-lg md:h-[250px] md:min-w-[520px] md:space-x-5 space-y-11 pb-[40px] pl-[34px] pt-[20px] sm:max-w-[375px] bg-[hsl(256,67%,59%)] flex justify-center items-center flex-col md:flex-row md:pb-[30px] md:pl-[24px] md:row-start-3 md:col-start-3"
         >
           <img
-            class="w-[300px]"
+            class="w-[300px] md:w-[200px]"
             src="./assets/images/illustration-grow-followers.webp"
             alt=""
           />
-          <h2 class="text-[45px] text-[hsl(31,66%,93%)] leading-8">
+          <h2
+            class="text-[45px] md:text-[35px] text-[hsl(31,66%,93%)] leading-8"
+          >
             Grow followers with non-stop content.
           </h2>
         </div>
         <div
-          class="rounded-lg sm:max-w-[375px] pt-[40px] pb-[40px] pl-[34px] bg-[hsl(0,0%,100%)] space-y-[25px]"
+          class="rounded-lg sm:max-w-[375px] md:w-[250px] md:relative top-3 md:h-[260px] pt-[40px] pb[40px] pl-[34px] md:p-[20px] bg-[hsl(0,0%,100%)] space-y-[25px] md:row-start-3 md:col-start-2"
         >
-          <h1 class="text-[65px] text-[hsl(0,0%,7%)] font-black">>56%</h1>
-          <p class="text-[23px]">faster audience growth</p>
+          <h1 class="text-[65px] md:text-[50px] text-[hsl(0,0%,7%)] font-black">
+            >56%
+          </h1>
+          <p class="text-[23px] md:text-[18px]">faster audience growth</p>
           <img
-            class="w-[200px]"
+            class="w-[200px] md:w-[160px]"
             src="./assets/images/illustration-audience-growth.webp"
             alt=""
           />
         </div>
         <div
-          class="rounded-lg sm:max-w-[375px] space-y-[25px] bg-[hsl(31,66%,93%)] pt-[40px] pb-[40px] pl-[34px]"
+          class="rounded-lg sm:max-w-[375px] md:h-[390px] md:relative md:bottom-2 md:w-[250px] space-y-[25px] bg-[hsl(31,66%,93%)] pt-[40px] pb-[40px] pl-[34px] row-start-1"
         >
           <h1 class="text-[35px] text-[hsl(0,0%,7%)] font-black leading-[35px]">
             Create and schedule content
@@ -129,7 +135,7 @@
           />
         </div>
         <div
-          class="rounded-lg space-y-[25px] sm:max-w-[375px] pt-[40px] pb-[40px] pl-[34px] bg-[hsl(39,100%,71%)]"
+          class="rounded-lg space-y-[25px] md:absolute md:bottom-[5px] md:mt-2 md:h-[390px] md:w-[250px] sm:max-w-[375px] pt-[40px] pb-[40px] pl-[34px] bg-[hsl(39,100%,71%)] md:row-start-3 md:col-end-2"
         >
           <h1 class="text-[35px] text-[hsl(0,0%,7%)] font-black leading-8">
             Write your content using AI.
